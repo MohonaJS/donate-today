@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@300;700&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@300;700&family=Yellowtail&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Header Style  */
 
 .hero-header {
   background: linear-gradient(rgba(0, 0, 0, 0.672), rgba(0, 0, 0, 0.6)),
@@ -15,7 +17,7 @@
   position: relative;
   text-align: center;
   width: 100%;
-  height: 300px;
+  height: 400px;
 }
 
 .hero-content {
@@ -24,6 +26,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+.hero-content > h1 {
+  line-height: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 2px;
 }
 .hero-btn {
   background-color: #ff5959;
@@ -34,6 +41,8 @@
   border-radius: 5px;
   border: none;
 }
+
+  /*  Donate  Today  section  */
 
 .donate-today {
   width: 80%;
@@ -76,6 +85,10 @@
   font-size: 40px;
   line-height: 36px;
 }
+.taka {
+  border: 2px solid orangered;
+  color: orangered;
+}
 
 .donateThird {
   margin: 3rem;
@@ -95,6 +108,9 @@
   border-radius: 5px;
   border: none;
 }
+
+
+/* Donate Plan  */
 
 .donate-plan {
   width: 80%;
@@ -146,9 +162,50 @@
   padding: 2rem;
 }
 
+
+/* support */
+.support {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem;
+}
+.support > h1 {
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.support-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.621), rgba(0, 0, 0, 0.494)),
+    url(./images/flood.webp);
+  background-repeat: no-repeat;
+  color: white;
+  padding: 4rem;
+  margin: 3rem;
+}
+.support-container h2 {
+  text-transform: capitalize;
+  line-height: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.support-container button {
+  border: none;
+  display: inline-block;
+  background-color: #ff5959;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  margin: 2rem;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Get My Update */
 .update {
   text-align: center;
   margin: 3rem;
+  box-shadow: 0 20px 15px orangered;
+  transform: rotate(-0.5deg);
 }
 
 .updateTitle h2 {
@@ -178,7 +235,7 @@
 }
 
 .form div {
-  margin-top: 15%;
+  margin-top: 8%;
 }
 .form div input {
   padding: 5px;
@@ -188,7 +245,7 @@
   background-color: lightgray;
 }
 ::placeholder {
-    color: gray;
+  color: gray;
 }
 .form div button {
   border: none;
@@ -198,25 +255,26 @@
   color: white;
 }
 
+
 /* Footer  */
 footer {
-    background-color: black;
-    color: white;
-    line-height: 2rem;
-    text-align: center;
-    margin-top: 4rem;
-    padding: 5rem;
+  background-color: black;
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  padding: 5rem;
 }
 
 footer h2 {
-    font-family: 'Lobster', cursive;
-    color: rgb(255, 79, 79);
-    font-weight: bolder;
-    font-size: 40px;
-    padding: 2rem;
+  font-family: "Lobster", cursive;
+  color: rgb(255, 79, 79);
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 2rem;
 }
 footer p {
-     padding: 2rem;
-     color: gray;
-     font-size: 25px;
+  padding: 2rem;
+  color: gray;
+  font-size: 25px;
 }
