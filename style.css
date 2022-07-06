@@ -28,9 +28,10 @@
   color: white;
 }
 .hero-content > h1 {
-  line-height: 5rem;
+  line-height: 4rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   letter-spacing: 2px;
+  font-size: 3rem;
 }
 .hero-btn {
   background-color: #ff5959;
@@ -42,7 +43,7 @@
   border: none;
 }
 
-  /*  Donate  Today  section  */
+/*  Donate  Today  section  */
 
 .donate-today {
   width: 80%;
@@ -93,12 +94,21 @@
 .donateThird {
   margin: 3rem;
 }
-.donateThird p {
-  color: gray;
-  padding: 1rem;
-  font-size: 20px;
-  line-height: 2rem;
+.donateThird input {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
+.donateThird input:hover {
+  outline: none;
+  border: 1px solid red;
+  box-shadow: 0 0 10px gray;
+}
+
 .donateThird button {
   background-color: #ff5959;
   color: white;
@@ -108,7 +118,6 @@
   border-radius: 5px;
   border: none;
 }
-
 
 /* Donate Plan  */
 
@@ -161,7 +170,6 @@
   margin: 1rem;
   padding: 2rem;
 }
-
 
 /* support */
 .support {
@@ -254,7 +262,6 @@
   padding: 8px;
   color: white;
 }
-
 
 /* Footer  */
 footer {
